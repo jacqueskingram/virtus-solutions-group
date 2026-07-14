@@ -21,8 +21,6 @@ This website serves as the public landing page for Virtus Solutions Group LLC. I
 - The company’s public-sector and government contracting focus
 - How to contact the business
 
-The first version is intentionally simple. As the business becomes fully approved, registered, and active, the site can be expanded with additional details such as a capability statement, NAICS codes, certifications, phone number, and vendor information.
-
 ## Current Sections
 
 The landing page includes:
@@ -71,23 +69,6 @@ virtus-website/
 | `assets/favicon-180.png` | Apple/mobile icon |
 | `assets/favicon-512.png` | Larger app/icon version |
 
-## Brand Direction
-
-The website uses a professional color scheme inspired by the selected Virtus logo:
-
-- Navy blue
-- Gold
-- Silver/gray
-- White
-
-The desired brand tone is:
-
-- Professional
-- Trustworthy
-- Government-contracting friendly
-- Clean and modern
-- Strong without being flashy
-- Broad enough for future services
 
 ## Contact Email
 
@@ -95,14 +76,6 @@ Current business email:
 
 ```text
 admin@govirtus.net
-```
-
-This email is used on the landing page. It can be replaced later with role-based inboxes such as:
-
-```text
-info@govirtus.net
-contracts@govirtus.net
-support@govirtus.net
 ```
 
 ## GitHub Pages Deployment
@@ -144,65 +117,6 @@ After GitHub Pages is working:
 5. Add the DNS records GitHub recommends.
 6. Wait for DNS propagation.
 7. Enable **Enforce HTTPS** once GitHub allows it.
-
-## Important Notes Before Going Fully Public
-
-Since Virtus Solutions Group LLC is newly filed and waiting on final processing, avoid adding unconfirmed information to the website.
-
-Do **not** add these until confirmed:
-
-- EIN
-- UEI
-- CAGE code
-- NAICS codes
-- Government certifications
-- Insurance information
-- “Federal contractor” language
-- Claims about contracts won
-- Claims about years in business under Virtus
-
-Safe language for now:
-
-- “Positioned to support government and public-sector opportunities”
-- “Professional and technical support services”
-- “North Carolina-based professional services company”
-- “Focused on reliable execution, documentation, and support”
-
-## Future Improvements
-
-Potential future additions:
-
-- Capability statement download
-- NAICS and PSC codes
-- Vendor registration details
-- Past performance section
-- Certifications section
-- Services detail pages
-- Contact form backend
-- Blog or updates section
-- Government contracting opportunity tracker login
-- Case studies once work is completed
-
-## Recommended Next Updates
-
-After the LLC is officially approved:
-
-1. Confirm the legal business name exactly as approved.
-2. Update the footer and company references if needed.
-3. Add the finalized business address or service area.
-4. Add a phone number if desired.
-5. Begin drafting a capability statement.
-6. Add vendor identifiers only after they are issued.
-
-## Maintenance
-
-This is a static website, so most updates can be made by editing:
-
-- `index.html` for wording/content changes
-- `styles.css` for design/color/layout changes
-- `assets/` for logo and image changes
-
-After making changes, commit and push to GitHub. GitHub Pages should automatically update the live site.
 
 ## Business Owner Notes
 
