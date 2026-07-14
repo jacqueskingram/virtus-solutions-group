@@ -117,7 +117,3 @@ After GitHub Pages is working:
 5. Add the DNS records GitHub recommends.
 6. Wait for DNS propagation.
 7. Enable **Enforce HTTPS** once GitHub allows it.
-
-## Business Owner Notes
-
-This website is the first public-facing version of the Virtus brand. The goal is not to look like a large company overnight. The goal is to look organized, professional, reachable, and ready to begin building relationships with agencies, prime contractors, and local business partners.
