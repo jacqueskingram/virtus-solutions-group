@@ -419,3 +419,19 @@ input::placeholder,textarea::placeholder {color:#adc0ce;}
  .featured-text {max-width:100%;background:none;padding-right:0;}
  .featured-metrics {grid-template-columns:repeat(2,minmax(0,1fr));margin-top:10px;}
 }
+
+/* 2026-10-30 review fix: improve hero balance, avoid blank ETR image panel. */
+.hero-grid{width:min(1380px,calc(100% - 72px));grid-template-columns:minmax(0,1fr) minmax(0,1.2fr);gap:42px}
+.hero-copy h1{font-size:clamp(2.25rem,3.35vw,3.65rem);line-height:1.09}
+.featured-content{min-height:390px}
+.featured-photo{background-image:linear-gradient(90deg,rgba(7,27,48,.45),rgba(7,27,48,.05)),url("assets/etr-center-sign.jpg");}
+.featured-photo::after{content:"EXCELSIOR SPRINGS\\A JOB CORPS CENTER";white-space:pre;position:absolute;right:7%;top:35%;padding:18px 22px;border:2px solid rgba(231,191,95,.5);border-radius:5px;color:#eecb79;background:rgba(4,18,31,.83);font-size:clamp(.83rem,1.1vw,1.12rem);font-weight:800;line-height:1.7;text-align:center;letter-spacing:.05em}
+@media(max-width:1100px){.hero-grid{width:min(100% - 38px,940px);grid-template-columns:1fr}.hero-copy h1{font-size:clamp(2.4rem,5.4vw,3.9rem)}.featured-text{max-width:60%}}
+@media(max-width:700px){.hero-grid{width:min(100% - 28px,680px)}.hero-copy h1{font-size:clamp(2.1rem,8.3vw,3rem)}.featured-photo::after{top:24%;right:20%;}}
+ 
+/* Hide the graphic fallback when the approved photograph has been uploaded. */
+.featured-photo{background-color:#12324b;}
+
+/* The approved site photograph carries the real entrance sign; do not overlay synthetic signage. */
+.featured-photo::after{display:none!important;}
+.featured-photo{background-position:20% center;}
