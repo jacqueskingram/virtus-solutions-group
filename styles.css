@@ -431,3 +431,7 @@ input::placeholder,textarea::placeholder {color:#adc0ce;}
  
 /* Hide the graphic fallback when the approved photograph has been uploaded. */
 .featured-photo{background-color:#12324b;}
+
+/* The approved site photograph carries the real entrance sign; do not overlay synthetic signage. */
+.featured-photo::after{display:none!important;}
+.featured-photo{background-position:20% center;}
