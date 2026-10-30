@@ -401,7 +401,7 @@ input::placeholder,textarea::placeholder {color:#adc0ce;}
   inset:0 0 0 auto;
   width:54%;
   background-color:#12324b;
-  background-image:linear-gradient(90deg,#071b30 0%,rgba(7,27,48,.28) 22%,rgba(7,27,48,.04) 75%),url("assets/etr-center-sign.jpg");
+  background-image:linear-gradient(90deg,#071b30 0%,rgba(7,27,48,.28) 22%,rgba(7,27,48,.04) 75%),linear-gradient(135deg,#173b5c,#071727);
   background-size:cover;
   background-position:34% center;
   background-repeat:no-repeat;
