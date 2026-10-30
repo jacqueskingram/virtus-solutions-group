@@ -435,3 +435,8 @@ input::placeholder,textarea::placeholder {color:#adc0ce;}
 /* The approved site photograph carries the real entrance sign; do not overlay synthetic signage. */
 .featured-photo::after{display:none!important;}
 .featured-photo{background-position:20% center;}
+
+/* Visible temporary visual while the licensed ETR photo is being sourced. */
+.featured-photo{background-image:linear-gradient(90deg,#071b30 0%,rgba(7,27,48,.5) 26%,rgba(7,27,48,.08) 100%),linear-gradient(140deg,#224e6b,#0b253e);}
+.featured-photo::after{display:block!important;content:"EXCELSIOR SPRINGS\\A JOB CORPS CENTER";white-space:pre;position:absolute;top:36%;right:8%;border:2px solid rgba(239,201,106,.75);background:rgba(3,17,29,.78);padding:20px 18px;text-align:center;color:#f3c75f;line-height:1.6;letter-spacing:.04em;font-size:clamp(.87rem,1.2vw,1.25rem);font-weight:800;border-radius:5px;}
+@media(max-width:700px){.featured-photo::after{top:20%;right:15%;}}
